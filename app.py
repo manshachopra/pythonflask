@@ -1,5 +1,5 @@
 # creating a Flask app 
-app = Flask(_name_) 
+app = Flask(__name__) 
   
 # on the terminal type: curl http://127.0.0.1:5000/ 
 # returns welcome to mansha page when we use GET. 
