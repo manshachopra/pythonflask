@@ -1,4 +1,4 @@
-# creating a Flask app 
+from flask import Flask, jsonify, request# creating a Flask app 
 app = Flask(__name__) 
   
 # on the terminal type: curl http://127.0.0.1:5000/ 
